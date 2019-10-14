@@ -1,0 +1,11 @@
+Patient	DM S45F
+DMRadiomics-001	1 0
+DMRadiomics-002	1 1
+DMRadiomics-003	1 1
+DMRadiomics-004	1 0
+DMRadiomics-005	1 0
+DMRadiomics-006	0 0
+DMRadiomics-007	0 0
+DMRadiomics-008	0 0
+DMRadiomics-009	0 0
+DMRadiomics-010	0 0
