@@ -31,6 +31,8 @@ provided example data and requires:
 Extracting the features from the example data should take less than 10 seconds.
 Using a larger image and/or mask may result in a longer computation time.
 
+Documentation for the model optimization is provided in the respective script.
+
 ## Known Issues
 
 ### Pyradiomics
