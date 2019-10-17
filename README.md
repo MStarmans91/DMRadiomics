@@ -1,5 +1,5 @@
 # DMRadiomics
-Script to compute the features used in the paper "Differential diagnosis and
+Script to compute features and fit radiomics models used in the paper "Differential diagnosis and
 mutation stratification of desmoid tumors on MRI using a radiomics approach."
 M. J. M. timbergen, M. P. A. Starmans et al. 2019.
 
