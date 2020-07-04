@@ -33,13 +33,17 @@ Using a larger image and/or mask may result in a longer computation time.
 
 Documentation for the model optimization is provided in the respective script.
 
+An overview with the names / labels of all features can be found in the
+feature_names.xlsx sheet. These features are also included in the example
+feature file.
+
 ## Known Issues
 
 ### Pyradiomics
 The PyRadiomics package we use requires numpy in the installation, hence
 you may need to install numpy manually beforehand:
 
-    pip install "numpy==1.6.4"
+    pip install "numpy==1.6.2"
 
 From version 2.2.0 and above, PyRadiomics removed a function and might throw
 this error:
@@ -56,3 +60,24 @@ remove and reinstall the package:
 
     pip uninstall missingpy
     pip install "missingpy==0.2.0"
+
+
+## Computation time
+The computation time of an experiment depends mostly on two factors:
+
+1. The size of the dataset in terms of patients and features. A mutation experiment conducted
+  on only the DTF subset (61 paitents) and only using T1-MRI (413 features)
+  will take less time than a DTF vs non-DTF (203 patients) on T1- and T2-MRI (822 features).
+2. The amount of workflows executed. By default, this equals
+  100.000 randomly sampled workflows x 5x train-validation cross-validation x 100x train-test cross-validation
+  = 50 million workflows. Reducing any of the settings and thus the amount of workflows will (almost, due to overhead) linearly decrease the computation time
+
+Compared to the workflow optimization computation time, the feature extraction
+computation time is neglectable.
+
+For the largest setup described, we have conducted experiments on two different hardware configurations with the following computation time:
+
+1. A CPU cluster with max. 140 jobs with one core each: 24 hours
+2. A single High Performance Computing (HPC) node with 32 cores: 32 hours
+
+While the first option has more cores available, due to the overhead of cluster scheduling, execution on a similar HPC would be faster.
