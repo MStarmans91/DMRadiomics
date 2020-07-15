@@ -1,7 +1,7 @@
 # DMRadiomics
 Script to compute features and fit radiomics models used in the paper "Differential diagnosis and
 mutation stratification of desmoid tumors on MRI using a radiomics approach."
-M. J. M. timbergen, M. P. A. Starmans et al. 2019.
+M. J. M. timbergen, M. P. A. Starmans et al. 2020.
 
 ## Installation
 For the feature extraction, only the PREDICT package, version 2.1.3,
