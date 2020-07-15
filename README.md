@@ -66,7 +66,7 @@ remove and reinstall the package:
 The computation time of an experiment depends mostly on two factors:
 
 1. The size of the dataset in terms of patients and features. A mutation experiment conducted
-  on only the DTF subset (61 paitents) and only using T1-MRI (413 features)
+  on only the DTF subset (61 patients) and only using T1-MRI (411 features)
   will take less time than a DTF vs non-DTF (203 patients) on T1- and T2-MRI (822 features).
 2. The amount of workflows executed. By default, this equals
   100.000 randomly sampled workflows x 5x train-validation cross-validation x 100x train-test cross-validation
