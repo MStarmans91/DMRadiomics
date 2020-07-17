@@ -1,7 +1,7 @@
 # DMRadiomics
 Script to compute features and fit radiomics models used in the paper "Differential diagnosis and
-mutation stratification of desmoid tumors on MRI using a radiomics approach."
-M. J. M. timbergen, M. P. A. Starmans et al. 2020.
+mutation stratification of desmoid-type fibromatosis on MRI using a radiomics approach."
+M. J. M. timbergen and M. P. A. Starmans et al. 2020.
 
 ## Installation
 For the feature extraction, only the PREDICT package, version 2.1.3,
@@ -81,3 +81,4 @@ For the largest setup described, we have conducted experiments on two different 
 2. A single High Performance Computing (HPC) node with 32 cores: 32 hours
 
 While the first option has more cores available, due to the overhead of cluster scheduling, execution on a similar HPC would be faster.
+Note that not all CPU power is used 100% of the time

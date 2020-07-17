@@ -60,9 +60,9 @@ def editconfig(config):
 # Inputs
 name = 'WORC_DM_DD'
 current_path = os.path.dirname(os.path.abspath(__file__))
-label_file = os.path.join(current_path, 'pinfo_DM.txt')
-semantics_file = os.path.join(current_path, 'sem_DM.txt')
-config = os.path.join(current_path, 'config_modeloptimization.ini')
+label_file = os.path.join(current_path, 'ExampleData', 'pinfo_DM.txt')
+semantics_file = os.path.join(current_path, 'ExampleData', 'sem_DM.txt')
+config = os.path.join(current_path, 'ExampleData', 'config_modeloptimization.ini')
 
 # Altough you can also the features, we will supply the raw image
 images = glob.glob(os.path.join(current_path, 'ExampleData', 'ExampleImage*.nii.gz'))
