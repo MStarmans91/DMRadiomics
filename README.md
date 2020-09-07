@@ -6,7 +6,7 @@ M. J. M. Timbergen and M. P. A. Starmans et al. 2020.
 When using this code, please cite the above mentioned paper and the code itself: [![][DOI]][DOI-lnk]
 
 [DOI]: https://zenodo.org/badge/DOI/10.5281/zenodo.4017190.svg
-[DOI-lnk]: https://zenodo.org/badge/latestdoi/214962190
+[DOI-lnk]: http://doi.org/10.5281/zenodo.4017191
 
 ## Installation
 For the feature extraction, only the PREDICT package, version 2.1.3,
