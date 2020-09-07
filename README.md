@@ -3,6 +3,11 @@ Script to compute features and fit radiomics models used in the paper "Different
 mutation stratification of desmoid-type fibromatosis on MRI using a radiomics approach."
 M. J. M. Timbergen and M. P. A. Starmans et al. 2020.
 
+When using this code, please cite the above mentioned paper and the code itself: [![][DOI]][DOI-lnk]
+
+[DOI]: https://zenodo.org/badge/DOI/10.5281/zenodo.4017190.svg
+[DOI-lnk]: https://zenodo.org/badge/latestdoi/214962190
+
 ## Installation
 For the feature extraction, only the PREDICT package, version 2.1.3,
 and the subsequent dependencies are required, which can be installed through pip:
